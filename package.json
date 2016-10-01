@@ -1,0 +1,19 @@
+{
+  "name": "gwdj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhood72/gwdj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhood72/gwdj/issues"
+  },
+  "homepage": "https://github.com/jhood72/gwdj#readme"
+}
