@@ -4,7 +4,9 @@ var gulp = require('gulp'),
 
     postcss = require('gulp-postcss'),
 
-    autoprefixer = require('autoprefixer');
+    autoprefixer = require('autoprefixer'),
+
+    cssvars = require('postcss-simple-vars');
 
 gulp.task('default', function() {
      
