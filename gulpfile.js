@@ -10,7 +10,9 @@ var gulp = require('gulp'),
 
     nested = require('postcss-nested'),
 
-    cssImport = require('postcss-import');
+    cssImport = require('postcss-import'),
+
+    browserSync = require('browser-sync').create();
 
 gulp.task('default', function() {
      
@@ -30,6 +32,12 @@ gulp.task("styles", function(){
 });
 
 gulp.task("watch", function(){
+
+	browserSync.init({
+		server: {
+			baseDir: "app"
+		}
+	});
 
 	watch('./app/index.html', function(){
 		gulp.start('html');
