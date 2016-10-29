@@ -468,8 +468,8 @@ img {
 .large-hero__title {
   font-weight: 300;
   color: #2f5572;
-  font-size: 1.1rem;
   margin: 0;
+  font-size: 1.1rem;
 
   @mixins atSmall {
     font-size: 2rem;

@@ -4,7 +4,7 @@
  	&__text-content {
 
 	position: absolute;
-	
+
 	left: 0;
 	/* aling the text horizontally*/
 	width: 100%;
@@ -17,8 +17,9 @@
 	&__title {
 	font-weight: 300;
 	color: $mainBlue;
-	font-size: 1.1rem;
 	margin: 0;
+	font-size: 1.1rem;
+
 
 	@mixins atSmall {
 		font-size: 2rem;
@@ -55,8 +56,3 @@
 		margin-right: auto;
 	}
 }
-
-
-
-
-
